@@ -59,7 +59,7 @@ main > section {
 .section-title {
   font-size: 2.8rem;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 
 /* header styles */
@@ -76,6 +76,7 @@ main > section {
   font-weight: 700;
   font-size: 3rem;
 }
+
 .nav-item {
   list-style: none;
   margin-right: 30px;
@@ -91,9 +92,11 @@ main > section {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .navbar {
   margin-bottom: 100px;
 }
+
 /* banner related styles */
 .banner-content {
   max-width: 850px;
@@ -111,6 +114,7 @@ main > section {
 .banner-description {
   margin-bottom: 30px;
 }
+
 .banner-image {
   width: 100%;
 }
@@ -142,6 +146,48 @@ main > section {
 }
 
 #quick-list {
+  font-weight: 500;
+}
+/* features related styles */
+#feature-section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 25px;
+}
+
+.feature-card .feature-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.feature-card {
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 140px;
+}
+
+.features img {
+  width: 100%;
+}
+
+#experience-badge {
+  padding: 45px 42px;
+}
+
+#experience-year {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.exp {
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
