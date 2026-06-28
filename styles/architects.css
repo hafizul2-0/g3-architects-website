@@ -179,16 +179,15 @@ main > section {
 
 #experience-badge {
   padding: 45px 42px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-left: -90px;
+  margin-top: -90px;
 }
 
 #experience-year {
   font-weight: bold;
   font-size: 4rem;
-}
-
-.exp {
-  font-size: 1.25rem;
-  font-weight: 500;
 }
 
 /* some facts related styles */
